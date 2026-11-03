@@ -1,0 +1,17 @@
+# Copy to /etc/systemd/system/ and replace USER and /path/to/tg-story-bot.
+# Run `python bot.py` once by hand first so the userbot session gets created.
+[Unit]
+Description=Telegram story bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=USER
+WorkingDirectory=/path/to/tg-story-bot
+ExecStart=/path/to/tg-story-bot/.venv/bin/python bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
