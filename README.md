@@ -56,3 +56,8 @@ Session fayllari `sessions/` papkasida saqlanadi.
 ## Maslahat. 
 
 Userbot uchun asosiy akkauntingizni emas, alohida akkaunt ishlating: ko'p so'rov yuborilsa Telegram vaqtincha cheklashi mumkin.
+
+
+## Litsenziya
+
+MIT
